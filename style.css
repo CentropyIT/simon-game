@@ -1,0 +1,142 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.outline {
+  fill-rule: evenodd;
+  fill: #130D1B;
+  cx:512;
+  cy:512;
+  r:502;
+}
+.running-text {
+  font-family: 'Conv_Calculator',Sans-Serif;
+  font-size: 4em;
+  fill: red;
+  letter-spacing: 1px;
+}
+
+.static-text {
+  font-family: 'Conv_Calculator',Sans-Serif;
+  font-size: 4em;
+  fill: #240f0f;
+}
+
+.simon {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 6em;
+  fill: #fff;
+}
+
+.smbuttons {
+
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 0.8em;
+  fill: #fff;
+}
+.green {
+  fill: #005e00;
+}
+.green:active, .green.flash {
+  fill: #00ff00;
+  transition: all .2s;
+}
+
+.red {
+  fill: #9e0202;
+}
+
+.red:active, .red.flash {
+  fill: #ff0000;
+  transition: all .2s;
+}
+.blue {
+  fill: #01017b;
+}
+.blue:active, .blue.flash {
+  fill: #0000ff;
+  transition: all .2s;
+}
+.yellow {
+  fill: #a8a800;
+}
+
+.yellow:active, .yellow.flash {
+  fill: #ffff00;
+  transition: all .2s;
+}
+#onOff {
+  cx: 636;
+  cy: 527;
+  r:40;
+}
+
+.off {
+  fill: #352945;
+
+}
+
+.on {
+  fill: #fff;
+  cx:579;
+  cy:550;
+   r:40;
+}
+
+.counter {
+  x: 323;
+  y: 478;
+  height:100px;
+  width: 245px;
+  rx:10;
+  ry:10;
+  fill: #110707;
+}
+
+.menu {
+  x: 396;
+  y: 614;
+  height: 60px;
+  width: 232px;
+  rx: 10;
+  ry: 10;
+  fill: #110707;
+}
+
+.dissed {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+#strictMode {
+  cx: 581;
+  cy: 645;
+  r: 21;
+  fill: #ff0000;
+}
+
+#strictLight {
+  cx: 581;
+  cy: 599;
+  r: 7;
+  fill: #1e0907;
+}
+
+#levels {
+  cx: 511;
+  cy: 645;
+  r: 21;
+  fill: #ffff00;
+}
+
+#newGame {
+  cx: 441;
+  cy: 645;
+  r: 21;
+  fill: #66fd66;
+}
